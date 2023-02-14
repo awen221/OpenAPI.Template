@@ -5,7 +5,9 @@ VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenAPI.Template", "OpenAPI.Template\OpenAPI.Template.csproj", "{F9F3AA21-6241-4082-BBD8-DA179E47B6D3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenAPI", "OpenAPI\OpenAPI.csproj", "{DD0DD658-3011-464B-9A86-667CC678CF41}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Submodules", "Submodules", "{E18E11E6-9C92-44AB-82A1-544A6D7AFE87}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenAPI", "Submodules\OpenAPI\OpenAPI.csproj", "{DD603900-9714-4A4B-BA73-90314F5990D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,13 +19,16 @@ Global
 		{F9F3AA21-6241-4082-BBD8-DA179E47B6D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9F3AA21-6241-4082-BBD8-DA179E47B6D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9F3AA21-6241-4082-BBD8-DA179E47B6D3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DD0DD658-3011-464B-9A86-667CC678CF41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DD0DD658-3011-464B-9A86-667CC678CF41}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DD0DD658-3011-464B-9A86-667CC678CF41}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DD0DD658-3011-464B-9A86-667CC678CF41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD603900-9714-4A4B-BA73-90314F5990D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD603900-9714-4A4B-BA73-90314F5990D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD603900-9714-4A4B-BA73-90314F5990D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD603900-9714-4A4B-BA73-90314F5990D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DD603900-9714-4A4B-BA73-90314F5990D4} = {E18E11E6-9C92-44AB-82A1-544A6D7AFE87}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {28FA0848-7466-40D3-8C66-41DFE5177BE3}

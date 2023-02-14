@@ -12,7 +12,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OpenAPI\OpenAPI.csproj" />
+    <ProjectReference Include="..\Submodules\OpenAPI\OpenAPI.csproj" />
   </ItemGroup>
 
 </Project>
